@@ -14,3 +14,5 @@ accéder à l’interface web de NameNode avec http://localhost :50070.</h2><br>
 <img src="./imgs/img5.png"><br>
 <H2>3. Créez dans le répertoire Cours de CPP les fichiers CoursCPP1, CoursCPP2 et
 CoursCPP3. Puis ajoutez du contenu dans les fichiers crées.</H2>
+<h6>hdfs dfs -mkdir -p BDDC{JAVA/{TPs,Cours},CPP/{TPs,Cours}}</h6>
+<img src="./imgs/img7.png"><br>
