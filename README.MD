@@ -41,4 +41,21 @@ hdfs dfs -mv BDDC/JAVA/Cours/CoursCPP2 BDCC/JAVA/Cours/CoursJAVA2<br>
 
 <h2>7. Créer un répertoire dans le système de fichier local les fichiers :
 TP1CPP,TP2CPP,TP1JAVA,TP2JAVA,TP3JAVA.</h2>
+<h6>touch {TP1CPP,TP2CPP,TP1JAVA,TP2JAVA,TP3JAVA}</h6>
+<img src="./imgs/img15.png"><br><br>
+<h2>8. Copier les fichiers TP1CPP,TP2CPP à partir du système de fichier local vers le répertoire TPs de répertoire CPP.</h2>
+hdfs dfs -copyFromLocal {TP1CPP,TP2CPP} BDDC/CPP/TPs <br>
+<img src="./imgs/img16.png"><br><br>
+<h2>9. Copier les fichiers TP1CJAVA,TP2JAVA à partir du système de fichier local vers le
+répertoire TPs de répertoire JAVA.</h2>
+<img src="./imgs/img17.png"><br><br>
+<h2>10.Afficher tout le contenu du répertoire BDDC d’une manière récursive.</h2>
+hdfs dfs -ls -R BDDC
+<img src="./imgs/img18.png"><br><br>
+<h2>11. Supprimer le fichier TP1CPP du répertoire TPs.</h2>
+<img src="./imgs/img19.png"><br><br>
+<h2>12. Supprimer le répertoire Java avec son contenu.</h2>
+<img src="./imgs/img20.png"><br><br>
+
+
 
