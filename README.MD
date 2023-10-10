@@ -1,4 +1,4 @@
-<h1 style="background-color: gray; padding: 10px;">TP 1 : Manipulation du système de fichiers HDFS</h1><br>
+<h1 style="background-color: rgb(128,128,128); padding: 10px;">TP 1 : Manipulation du système de fichiers HDFS</h1><br>
 <h2>1. Démarrez les processus Hadoop avec les commandes start-dfs.sh et start-
 yarn.sh. Ensuite, vérifiez qu’il est en cours d’exécution avec la commande jps et
 accéder à l’interface web de NameNode avec http://localhost :50070.</h2><br>
