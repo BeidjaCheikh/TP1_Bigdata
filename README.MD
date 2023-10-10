@@ -17,3 +17,28 @@ accéder à l’interface web de NameNode avec http://localhost :50070.</h2><br>
 CoursCPP3. Puis ajoutez du contenu dans les fichiers crées.</H2>
 <h6>hdfs dfs -touchz BDDC/CPP/Cours/{CoursPY1,CoursPY2,CoursPY3}</h6>
 <img src="./imgs/img9.png"><br>
+Puis ajoutez du contenu dans les fichiers crées.
+<h6>echo "Hi SDIA!" | hadoop fs -appendToFile - SDIA/PYTHON/Cours/CoursPY2</h6>
+<img src="./imgs/img10.png"><br>
+<h2>4. Affichez le contenu des fichiers CoursCPP1, CoursCPP2 et CoursCPP3.</h2>
+<img src="./imgs/img11.png"><br>
+<h2>5. Copiez les fichiers CoursCPP1, CoursCPP2 et CoursCPP3 dans le répertoire Cours
+de l’JAVA.</h2>
+<h6>hdfs dfs -cp -f BDDC/CPP/Cours/{CoursPY1,CoursPY2,CoursPY3} BDDC/JAVA/Cours</h6>
+<img src="./imgs/img12.png"><br>
+<h2>6. Supprimer le fichier CoursCPP3 dans le répertoire Cours de l’JAVA, et renommer
+CoursCPP1 et CoursCPP2 par CoursJAVA1 et CoursJAVA2 respectivement.</h2>
+<h6>Supprimer le fichier CoursCPP3 dans le répertoire Cours de l’JAVA</h6><br><br>
+hdfs dfs -rm SDIA/JAVA/Cours/CoursPY1 <br><br>
+<img src="./imgs/img14.png"><br>
+<h6>renommer CoursCPP1 par CoursJAVA1</h6>
+hdfs dfs -mv BDDC/JAVA/Cours/CoursCPP1 BDCC/JAVA/Cours/CoursJAVA1 <br>
+<img src="./imgs/img13.png"><br><br>
+
+<h6>renommer CoursCPP2 par CoursJAVA2</h6>
+hdfs dfs -mv BDDC/JAVA/Cours/CoursCPP2 BDCC/JAVA/Cours/CoursJAVA2<br>
+<img src="./imgs/img13.png"><br><br>
+
+<h2>7. Créer un répertoire dans le système de fichier local les fichiers :
+TP1CPP,TP2CPP,TP1JAVA,TP2JAVA,TP3JAVA.</h2>
+
