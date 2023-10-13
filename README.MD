@@ -11,7 +11,7 @@ accéder à l’interface web de NameNode avec http://localhost :50070.</h2><br>
 <h2>2. Créez dans la racine du HDFS l’arborescence suivante :</h2><br>
 <h6>hdfs dfs -mkdir -p BDDC{JAVA/{TPs,Cours},CPP/{TPs,Cours}}</h6>
 <img src="./imgs/img7.png"><br>
-<h6> hdfs dfs -ls -R SDIA</h6>
+<h6> hdfs dfs -ls -R BDDC</h6>
 <img src="./imgs/img8.png"><br>
 <H2>3. Créez dans le répertoire Cours de CPP les fichiers CoursCPP1, CoursCPP2 et
 CoursCPP3. Puis ajoutez du contenu dans les fichiers crées.</H2>
