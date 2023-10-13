@@ -18,7 +18,7 @@ CoursCPP3. Puis ajoutez du contenu dans les fichiers crées.</H2>
 <h6>hdfs dfs -touchz BDDC/CPP/Cours/{CoursPY1,CoursPY2,CoursPY3}</h6>
 <img src="./imgs/img9.png"><br>
 Puis ajoutez du contenu dans les fichiers crées.
-<h6>echo "Hi SDIA!" | hadoop fs -appendToFile - SDIA/PYTHON/Cours/CoursPY2</h6>
+<h6>echo "Hi SDIA!" | hadoop fs -appendToFile - BDDC/CPP/Cours/CoursPY2</h6>
 <img src="./imgs/img10.png"><br>
 <h2>4. Affichez le contenu des fichiers CoursCPP1, CoursCPP2 et CoursCPP3.</h2>
 <img src="./imgs/img11.png"><br>
