@@ -66,6 +66,7 @@ HDFS :</h3>
 <img src="./imgs/img22.png"><br><br>
 <h3>L’exemple suivant montre comment écrire dans un fichier texte dans
 HDFS :</h3>
+<img src="./imgs/img24.png"><br><br>
 <img src="./imgs/img23.png"><br><br>
 
 
