@@ -56,6 +56,17 @@ hdfs dfs -ls -R BDDC
 <img src="./imgs/img19.png"><br><br>
 <h2>12. Supprimer le répertoire Java avec son contenu.</h2>
 <img src="./imgs/img20.png"><br><br>
+<h1>Partie2</h1>
+<h2>API pour utiliser HDFS en Java</h2>
+<h2>La première étape, il faut ajouter la dépendance avec Maven dans le
+fichier pom.xml.</h2><br><br>
+<img src="./imgs/img21.png"><br><br>
+<h3>L’exemple suivant montre comment lire à partir d’un fichier texte dans
+HDFS :</h3>
+<img src="./imgs/img22.png"><br><br>
+<h3>L’exemple suivant montre comment écrire dans un fichier texte dans
+HDFS :</h3>
+<img src="./imgs/img23.png"><br><br>
 
 
 
